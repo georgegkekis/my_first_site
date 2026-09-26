@@ -80,6 +80,21 @@
         button:hover {
             background: #444;
         }
+
+        .github-link {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+
+            font-size: 14px;
+            color: #666;
+            text-decoration: none;
+        }
+
+        .github-link:hover {
+            color: #222;
+            text-decoration: underline;
+        }
     </style>
 </head>
 
@@ -95,6 +110,12 @@
         <button id="convert">Convert</button>
 
     </div>
+
+    <a class="github-link"
+       href="https://github.com/georgegkekis/my_first_site"
+       target="_blank">
+        View source on GitHub
+    </a>
 
     <script>
         document.getElementById("convert").addEventListener("click", function () {
